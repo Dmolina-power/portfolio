@@ -1,24 +1,47 @@
-import logo from './logo.svg';
-import './App.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+import React, { useState, useEffect } from "react";
+import Navbar from "./Components/Navbar";
+import { Routes, Route } from "react-router-dom";
+import Preloader from "./Pre";
+import Footer from "./Components/Footer";
+import ScrollToTop from "./ScrollToTop";
+//PAGES
+import About from "./Pages/About";
+import Home from "./Pages/Home";
+import Projects from "./Pages/Projects";
+import Resume from "./Pages/Resume";
+import Contact from "./Pages/Contact";
+//STYLE
+import "./App.css";
 
-function App() {
+const App = () => {
+  const [load, upadateLoad] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      upadateLoad(false);
+    }, 1200);
+
+    return () => clearTimeout(timer);
+  }, []);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+     <Preloader load={load} />
+      <div className="App" id={load ? "no-scroll" : "scroll"}>
+        <Navbar />
+        <ScrollToTop />
+    <Navbar />
+     <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/project" element={<Projects />} />
+      <Route path="/resume" element={<Resume />} />
+      <Route path="/contact" element={<Contact />} />
+    </Routes>
+    <Footer />
     </div>
+    </>
+   
   );
 }
 
