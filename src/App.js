@@ -32,7 +32,7 @@ const App = () => {
         <ScrollToTop />
     <Navbar />
      <Routes>
-      <Route path="/portfolio" element={<Home />} />
+      <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
       <Route path="/project" element={<Projects />} />
       <Route path="/resume" element={<Resume />} />
