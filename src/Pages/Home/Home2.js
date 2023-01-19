@@ -63,7 +63,7 @@ const Home2 = () => {
                   className="con_ico"
                   sx={{ fontSize: 45 }}
                 />
-                <a href="tel:+917069896660" className="con-det">
+                <a href="tel:4805328702" className="con-det">
                   480-532-8702
                 </a>
               </div>
