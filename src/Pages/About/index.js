@@ -1,13 +1,13 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import Particle from "../../Components/Particle";
+
 import Techstack from "../../Components/Stacks/Techstack";
 import Toolstack from "../../Components/Stacks/Toolstack";
 
 const About = () => {
   return (
     <Container fluid className="about-section">
-      <Particle />
+     
       <Container>
         <h1 className="project-heading">
           Professional <strong className="purple">Skillset </strong>

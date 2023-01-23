@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import Image from "react-bootstrap/Image";
 import { AiFillGithub, AiOutlineTwitter } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import PhoneIcon from "@mui/icons-material/Phone";
@@ -48,7 +49,7 @@ const Home2 = () => {
             </p>
           </Col>
           <Col md={4} className="myAvtar">
-            <img src={myImg} className="img-fluid rounded" alt="avatar" />
+            <Image src={myImg} className="img-fluid" alt="avatar"roundedCircle/>
           </Col>
         </Row>
         <Row>
@@ -59,7 +60,7 @@ const Home2 = () => {
             <div className="contact">
               <div>
                 <PhoneIcon
-                  color="secondary"
+                  color="primary"
                   className="con_ico"
                   sx={{ fontSize: 45 }}
                 />
@@ -70,7 +71,7 @@ const Home2 = () => {
               <div>
                 <EmailIcon
                   className="con_ico"
-                  color="secondary"
+                  color="primary"
                   sx={{ fontSize: 45 }}
                 />
                 <a
@@ -84,7 +85,7 @@ const Home2 = () => {
               </div>
               <div>
                 <PlaceIcon
-                  color="secondary"
+                  color="primary"
                   className="con_ico"
                   sx={{ fontSize: 45 }}
                 />

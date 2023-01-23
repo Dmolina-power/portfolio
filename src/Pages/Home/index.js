@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import DanImg from "../../Assets/danny.png";
-import Particle from "../../Components/Particle";
+
 import Type from "../../Components/TypeWriter/Type";
 import Home2 from "./Home2";
 import Image from "react-bootstrap/Image";
@@ -11,7 +11,7 @@ const Home = () => {
     <>
       <section>
         <Container fluid className="home-section" id="home">
-          <Particle />
+         
           <Container className="home-content">
             <Row>
               <Col md={7} className="home-header">
@@ -36,7 +36,8 @@ const Home = () => {
                 <Image
                   src={DanImg}
                   alt="home pic"
-                  className="rounded img-fluid "
+                  className="img-fluid "
+                  roundedCircle
                 />
               </Col>
             </Row>

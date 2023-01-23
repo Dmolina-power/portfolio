@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Particle from "../../Components/Particle";
+
 import ProjectCard from "../../Components/Project/ProjectCards";
 import projects from "../../Data/projects.json";
 
@@ -12,7 +12,7 @@ class Projects extends Component {
   render() {
     return (
       <Container fluid className="project-section">
-        <Particle />
+        
         <Container>
           <h1 className="project-heading">
             My Recent <strong className="purple">Works </strong>
