@@ -24,7 +24,7 @@ const Home = () => {
 
                 <h1 className="heading-name">
                   I'M
-                  <strong className="main-name"> Daniel Molina</strong>
+                  <strong className="main-name"> Daniel Molina-power</strong>
                 </h1>
 
                 <div style={{ padding: 50, textAlign: "left" }}>
