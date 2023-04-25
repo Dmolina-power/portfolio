@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import DanImg from "../../Assets/danny.png";
+import DanImg from "../../Assets/nuevodanny.PNG";
 
 import Type from "../../Components/TypeWriter/Type";
 import Home2 from "./Home2";
@@ -24,7 +24,7 @@ const Home = () => {
 
                 <h1 className="heading-name">
                   I'M
-                  <strong className="main-name"> Daniel Molina-power</strong>
+                  <strong className="main-name"> Daniel Molina-Power</strong>
                 </h1>
 
                 <div style={{ padding: 50, textAlign: "left" }}>
