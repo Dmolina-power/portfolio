@@ -4,6 +4,7 @@
         "name": "PIAG Museum",
         "image": "./images/PIAG_WEB.png",
         "content": " a Non Profit Art Museum built in React. ",
+        "gitHubLink": "https://github.com/PiagMuseum/piag",
         "link": "https://www.piagmuseum.org/"
     },
     {
