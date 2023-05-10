@@ -32,3 +32,5 @@
 ## Contributing 
 Daniel Molina-Power
 
+ ![Avatar Image](https://avatars0.githubusercontent.com/u/62960620?v=4)
+
