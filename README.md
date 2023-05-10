@@ -36,5 +36,5 @@ Follow the project link below in the site you can find some information about me
 ## Contributing 
 Daniel Molina-Power
 
- ![Avatar Image](https://avatars0.githubusercontent.com/u/62960620?v=4)
+![avatar](https://images.weserv.nl/?url=avatars0.githubusercontent.com/u/62960620?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d)
 
