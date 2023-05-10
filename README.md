@@ -22,11 +22,9 @@
 * ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
 * ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 
-## Installation
-
 
 ## Usage
-
+Follow the project link below in the site you can find some information about me my projects, and much more!
 
 ## Project link 
 * www.danielmolinacodes.com
